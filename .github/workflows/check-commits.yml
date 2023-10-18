@@ -1,6 +1,7 @@
 name: Verify Commit Message Structure
 
 on:
+  push:
   pull_request:
 
 jobs:
