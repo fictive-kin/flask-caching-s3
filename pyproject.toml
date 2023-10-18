@@ -2,18 +2,14 @@
 name = "flask-caching-s3"
 version = "0.1.0"
 description = "An S3 adapter for the Flask-Caching framework"
-authors = ["Joël Perras <joel@nerderati.com>"]
 license = "MIT"
 readme = "README.rst"
-
 homepage = "https://github.com/fictivekin/flask-caching-s3"
 repository = "https://github.com/fictivekin/flask-caching-s3"
 authors = [
     "Joël Perras <joel@fictivekin.com>",
 ]
-readme = "README.rst"
 packages = [{include = "flask_caching_s3"}]
-license = "MIT"
 keywords = ["flask", "flask-caching", "aws", "s3", "caching"]
 classifiers = [
     "Environment :: Console",
