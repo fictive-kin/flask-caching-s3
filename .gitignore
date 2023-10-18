@@ -1,0 +1,7 @@
+poetry.lock
+pyrightconfig.json
+*.pyc
+dist/
+
+# docker artifacts
+tests/volume

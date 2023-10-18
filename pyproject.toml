@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "flask-caching-s3"
+version = "0.1.0"
+description = "An S3 adapter for the Flask-Caching framework"
+authors = ["Joël Perras <joel@nerderati.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.28.62"
+Flask-Caching = "^2.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+lovely-pytest-docker = "^0.3.1"
+localstack-client = "^2.3"
+boto3-stubs = {extras = ["s3"], version = "^1.28.62"}
+freezegun = "^1.2.2"
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::pytest.PytestAssertRewriteWarning", "ignore::DeprecationWarning"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
