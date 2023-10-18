@@ -84,9 +84,10 @@ class S3Cache(BaseCache):
             raise ValueError("You must specify CACHE_S3_BUCKET in your config.")
 
         args.insert(0, config["CACHE_S3_BUCKET"])
-        key_prefix = config.get("CACHE_KEY_PREFIX")
-        if key_prefix:
+        if (key_prefix := config.get("CACHE_KEY_PREFIX")) is not None:
             kwargs["key_prefix"] = key_prefix
+        if (default_timeout := config.get("CACHE_DEFAULT_TIMEOUT")) is not None:
+            kwargs["default_timeout"] = default_timeout
         return cls(*args, **kwargs)
 
     def _utcnow(self) -> datetime.datetime:
