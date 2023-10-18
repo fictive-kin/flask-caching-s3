@@ -6,6 +6,26 @@ authors = ["Joël Perras <joel@nerderati.com>"]
 license = "MIT"
 readme = "README.rst"
 
+homepage = "https://github.com/fictivekin/flask-caching-s3"
+repository = "https://github.com/fictivekin/flask-caching-s3"
+authors = [
+    "Joël Perras <joel@fictivekin.com>",
+]
+readme = "README.rst"
+packages = [{include = "flask_caching_s3"}]
+license = "MIT"
+keywords = ["flask", "flask-caching", "aws", "s3", "caching"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+    "CHANGELOG.md"
+]
+
 [tool.poetry.dependencies]
 python = "^3.8"
 boto3 = "^1.28.62"
