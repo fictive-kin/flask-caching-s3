@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flask-caching-s3"
-version = "0.1.4"
+version = "0.1.5"
 description = "An S3 adapter for the Flask-Caching framework"
 license = "MIT"
 readme = "README.rst"
