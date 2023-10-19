@@ -20,6 +20,7 @@ Configuration
 Configuration is straightforward, and is identical to the usual process for configuring ``Flask-Cache``. Note that the `mechanism by which you choose to configure <https://flask.palletsprojects.com/en/3.0.x/config/>`_ is up to you; the example below is simply for illustrative purposes:
 
 .. code-block:: python
+
     from flask import Flask
     from flask_caching import Cache
 
@@ -39,7 +40,6 @@ Configuration is straightforward, and is identical to the usual process for conf
 Of course, an application-factory is also supported:
 
 .. code-block:: python
-
 
     from flask import Flask
     from flask_caching import Cache
@@ -122,6 +122,7 @@ The following options can be provided to the S3Cache, but are entirely optional:
 - ``CACHE_OPTIONS``: A dictionary of key/value pairs for more fine-grained configuration of how the cache will behave.
 
     .. code-block:: python
+
         s3_cache.init_app(
             app,
             config={
