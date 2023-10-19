@@ -23,7 +23,7 @@ include = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-boto3 = "^1.28.62"
+boto3 = "^1.26"
 Flask-Caching = "^2.1.0"
 
 [tool.poetry.group.dev.dependencies]
