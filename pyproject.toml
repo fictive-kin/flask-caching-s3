@@ -18,8 +18,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 include = [
-    "LICENSE",
-    "CHANGELOG.md"
+    "LICENSE"
 ]
 
 [tool.poetry.dependencies]
