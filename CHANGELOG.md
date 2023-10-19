@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.1.3] - 2023-10-19
 
 ### Miscellaneous Tasks
 
 - Update `cliff.toml` configuration file
 - Remove `CHANGELOG.md`
+- Fix `CHANGELOG.md` generation via `git-cliff`
 
 ## [0.1.2] - 2023-10-18
 
