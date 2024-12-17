@@ -12,7 +12,7 @@ Install via ``pip`` directly, or whatever your preferred dependency/package envi
 
 .. code-block:: shell
 
-    pip install flask-cache-s3
+    pip install flask-caching-s3
 
 Configuration
 -------------
